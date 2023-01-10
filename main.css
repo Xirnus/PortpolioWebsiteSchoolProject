@@ -1,0 +1,139 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f1f1;
+    height: 1200px;
+    padding-top: 60px;
+}
+
+/* Header styles */
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    border-bottom: 1.5px solid black;
+    font-size: 22px;
+    width: 100%;
+}
+.spanHeader{
+    border:1px solid black;
+    padding:15px;
+}
+.header a{
+    float: left;
+    color: black;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 20px;
+    border-radius: 4px;
+}
+.header a:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+/* Hero image styles */
+.heroImage {
+    padding-top: 25px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.heroImage h1{
+    text-decoration: underline;
+}
+
+/* Main content styles */
+.mainContents {
+    display: flex;
+    flex-direction: row;
+}
+
+.image {
+    position: relative;
+    bottom: 0px;
+    left: 200px;
+    border: 2px solid black;
+}
+
+.paragraph {
+    position: relative;
+    left: 300px;
+    top: 100px;
+    width: 50%;
+    font-size: 26px;
+}
+
+
+/* Footer styles */
+.footer {
+    position: relative;
+    border-top: 1px solid black;
+    top: 23%;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 22px;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+footer li{
+    width:80px;
+}
+li img{
+    width: 80px;
+    object-fit: contain;
+}
+
+fieldset{
+    display: block;
+    margin: 0 auto;
+    margin-top: 80px;
+    width:1200px;
+}
+
+legend{
+    font-size: 48px;
+}
+
+fieldset ul{
+    list-style: none;
+    font-size: 26px;
+}
+
+fieldset img{
+    width: 250px;
+    border:1px black solid;
+}
+
+.spanBold{
+    font-weight: bold;
+}
+
+.spanUnderline{
+    text-decoration: underline;
+}
+
+fieldset p{
+    font-size:26px;
+}
+
+.ProfileContent{
+    display:flex;
+    justify-content:center;
+}
+
