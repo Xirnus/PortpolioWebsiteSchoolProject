@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <title>Student Record Form</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Student Record Form</legend>
+                <div>
+                    <form>Personal Information</form>
+                    <div>
+                        <label>State your full name (As Enrolled)</label>
+                            <input type="text" size = "100px"name="First Name" id="firstName" required placeholder="First" />
+                            <input type="text" name="Second Name" id="secondName" required placeholder="Last"/>
+                    </div>
+                    <div>
+                        <label>Major
+                            <input type="text" name="Major" id="major" required placeholder="BS**">
+                        </label>
+                    </div>
+                    <div>
+                        <label>Expected Year of Graduation
+                            <input type="text" name="Expected Year of Graduation" id="expYearOfGraduation" required>
+                        </label>
+                    </div>
+                    <div>
+                        <label>Adress</label>
+                            <input type="text" name="Street Adress" id="streetAdress" required placeholder="Street Adress">
+                            <input type="text" name="Street Adress line2" id="streetAdressLine2" required placeholder="Street Adress line 2">
+                            <input type="text" name="City" id="city" required placeholder="City">
+                            <input type="text" name="Region" id="region" required placeholder="Region">
+                            <input type="text" name="Postal/Zip Code" id="postal" required placeholder="Postal / Zip Code">
+                            <label for="province-select">Province</label>
+                            <select name="province" id="province-select" required>
+                                <option value="">Region</option>
+                                    <option value="abra">Abra</option>
+                                    <option value="agusan del norte">Agusan Del Norte</option>
+                                    <option value="agusan del sur">Agusan del Sur</option>
+                                    <option value="aklan">Aklan</option>
+                                    <option value="albay">Albay</option>
+                                    <option value="antique">Antique</option>
+                                    <option value="apayao">Apayao</option>
+                                    <option value="aurora">Aurora</option>
+                                    <option value="basilan">Basilan</option>
+                                    <option value="bataan">Bataan</option>
+                                    <option value="batanes">Batanes</option>
+                            </select>
+                    </div>
+                    <div>
+                        <label>Email
+                            <input type="text" name="email" id="email" required>
+                        </label>
+                    </div>
+                    <div>
+                        <label>Phone
+                            <input type="text" name="phone-number" id="phone-number" required placeholder="63+9*********">
+                        </label>
+                    </div>
+                    <div>
+                        <label>Prefered method of contact</label>
+                        <br>
+                        <input type="checkbox" id="email" name="email">
+                            <label for="email">Email</label>
+                            <br>
+                        <input type="checkbox" id="phone" name="phone">
+                            <label for="phone">Phone</label>
+                            <br>
+                        <input type="checkbox" id="ms team" name="ms team">
+                            <label for="ms team">MS Team</label>
+                    </div>
+                    <div>
+                        <label>Date you first visited the school
+                            <input type="date" id="date-of-visit" name="date-of-visit">
+                        </label>
+                    </div>
+                    <div>
+                        <label>Describe yourself in three words.
+                            <br>
+                            <textarea rows="5px" cols="50px"></textarea>
+                        </label>
+                    </div>
+                    <button>Submit</button>
+                </div>
+        </fieldset>
+    </form> 
+</body>
+</html>
